@@ -1,7 +1,7 @@
 # react-tetris
 
 ![Build Status](https://github.com/brandly/react-tetris/workflows/.github/workflows/test.yml/badge.svg)
-
+[![React-Tetris Deploy Pipe](https://github.com/jumpdaddy78/react-tetris-docker/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/jumpdaddy78/react-tetris-docker/actions/workflows/ci-cd.yml)
 > Embed a game of Tetris in your React app
 
 ```shell
