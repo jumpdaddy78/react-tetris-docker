@@ -19,10 +19,10 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            jumpdaddy/react-tetris-image
+            name/app
           tags: |
             type=semver,pattern={{latest}}
-            type=semver,pattern={{major}}.{{minor}}.{{bugfix}}
+            type=semver,pattern={{major}}.{{minor}}
 
       - name: Login to Docker-hub
         uses: docker/login-action@v3
