@@ -22,7 +22,7 @@ jobs:
             jumpdaddy/react-tetris-image
           tags: |
             type=semver,pattern={{latest}}
-            type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern={{major}}.{{minor}}.{{bugfix}}
 
       - name: Login to Docker-hub
         uses: docker/login-action@v3
